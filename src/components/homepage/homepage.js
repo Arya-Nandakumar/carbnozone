@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="home">
       <img src={backgroundImage} alt="Global Climate Action" className="background-image" />
       <div className="home-content">
-        <h1>Welcome to Carbnozone</h1>
+        <h1>Welcome to carbNOzone</h1>
         <h2>Your marketplace for environmentally friendly products and services.</h2>
         <div className="vision">
           <p>

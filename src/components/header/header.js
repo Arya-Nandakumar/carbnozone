@@ -24,6 +24,7 @@ const Header = () => {
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/services">Services</Link></li>
           <li><Link to="/investment">Investment</Link></li>
+          <li><button className="login-button">Login</button></li>
         </ul>
         <div className="menu-icon" onClick={toggleMenu}>
           <div className="bar"></div>
@@ -31,7 +32,6 @@ const Header = () => {
           <div className="bar"></div>
         </div>
       </nav>
-      <button className="login-button">Login</button>
     </header>
   );
 };
