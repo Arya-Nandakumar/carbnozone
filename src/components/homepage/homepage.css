@@ -1,0 +1,57 @@
+body, html {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    color: #2a422a; 
+    text-align: left;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  
+  .home-content {
+    position: relative;
+    z-index: 1;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin-left: auto;
+  }
+  
+  .home h1 {
+    font-size: 4em; 
+    margin-bottom: 20px;
+  }
+  
+  .home h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .vision {
+    font-size: 1.2em; 
+    margin-top: 20px;
+  }
+  
+  
